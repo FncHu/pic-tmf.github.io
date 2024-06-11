@@ -74,11 +74,14 @@
                     </div> -->
                 </div>
                 <div class="container-md">
-                    <h2>About</h2>
+                    <h2>Abstract</h2>
                     <p>
-                        We combine Generative Adversarial Networks with learned compression to obtain a state-of-the-art generative lossy compression system.
-                In the paper, we investigate normalization layers, generator and discriminator architectures, training strategies, as well as perceptual losses.
-                In a user study, we show that our method is <strong>preferred to previous state-of-the-art approaches even if they use more than 2 &times;the bitrate.</strong>
+                        While Learned Image Compression (LIC) methods have demonstrated remarkable advancements and have excelled in rate-distortion performance, they may not fully address the subjective perception of viewers. 
+                        On the contrary, Perceptual Image Compression (PIC) techniques have gained attention due to their focus on preserving visual quality and human perception in compressed images. 
+                        This paper presents a novel perceptual image compression network that leverages Text-guided Multi-level Fusion (TMF) module to achieve a better rate-perception-distortion trade-off. 
+                        More precisely, we employ CLIP text encoder to extract textual features, which we then utilize as guidance to perform multiple rounds of fusion with image features. 
+                        Furthermore, we conduct extensive experiments to quantitatively validate the underlying principles of our algorithm, shed light on the theoretical underpinnings of text guidance, and showcase the effectiveness of our approach from diverse perspectives. 
+                        Finally, we evaluate our algorithm using state-of-the-art perceptual quality indicators, including CLIP-IQA, NIQE, and FID, and show that our PIC-TMF network outperforms existing algorithms on each metric.                    
                     </p>
                 </div>
                 <hr/>
@@ -171,7 +174,7 @@
                 <div class="container-md centered-info paperthumbs">
                     <h2>Paper</h2>
                     <emph>
-                        <p class="conference-name">NeurIPS 2020</p>
+                        <p class="conference-name">Submitting to PRCV 2024</p>
                     </emph>
                     <!-- <div class="container">
                         <div class="row no-gutters">
@@ -222,16 +225,16 @@
                             </div>
                         </div>
                     </div> -->
-                    <p>
+                    <!-- <p>
                         <a href="https://arxiv.org/abs/2006.09965">PDF including supplementary material available on arXiv</a>
-                    </p>
+                    </p> -->
                     <h4>Visual Supplementary</h4>
                     <p>The PDF on arxiv includes the supplementary materials with more information.
             </p>
-                    <p>
+                    <!-- <p>
                         <a target="_blank" href="https://storage.googleapis.com/hific/data/appendixb/appendixb.pdf">Additional visual results are hosted as a PDF here.</a>
-                    </p>
-                    <h4>All Evaluation Images</h4>
+                    </p> -->
+                    <!-- <h4>All Evaluation Images</h4> -->
                     <!-- <div class="eval-imgs">
                         <a target="_blank" href="https://hific.github.io/raw/index.html">
                             <img src="dataset_thumbs/kodak/kodim10.jpg" class="eval-imgs-first"/>
@@ -384,14 +387,14 @@
                             <img src="dataset_thumbs/clic2020/01acd87d2ed16037467432a87863113d.jpg"/>
                         </a>
                     </div> -->
-                    <p>We evaluate our method on CLIC2020, DIV2K, and Kodak.</p>
-                    <p>
+                    <p>We evaluate our method on CLIC2020 and Kodak.</p>
+                    <!-- <p>
                         <a target="_blank" href="raw/index.html">Reconstructions of HiFiC on all these datasets can be found here.</a>
-                    </p>
+                    </p> -->
                 </div>
                 <hr/>
                 <div class="container-md">
-                    <h2>Code</h2>
+                    <!-- <h2>Code</h2>
                     <p>
                         Training code, code to evaluate with our models, and more details are available as part of the TensorFlow Compression repo at
             <a target="_blank" href="https://github.com/tensorflow/compression/tree/master/models/hific">TFC/models/hific</a>
@@ -405,8 +408,8 @@
                             <img src="https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667" align="center" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg" style="max-width:100%;">
                         </a>
                     </p>
-                    <hr/>
-                    <h2>User Study</h2>
+                    <hr/> -->
+                    <h2>Experiments Result</h2>
                     <div class="outlined">
                         <div class="caption">
                             <p>
@@ -436,8 +439,14 @@
                                 ,
                         and for learned methods we show the loss components.
                     
-                            </p>
+                            <!-- </p>
                             <img src="img_other/userstudy.png" class="img-figure rounded mx-auto d-block">
+                            <p> -->
+                            </p>
+                            <img src="data/result/metrics-clic2020.png" class="img-figure on clic2020">
+                            <p>
+                            </p>
+                            <img src="data/result/metrics-Kodak.png" class="img-figure on kodak">
                             <p>The study shows that training with a GAN yields reconstructions that outperform BPG at practical
                         bitrates, for high-resolution images.
                         Our model at 0.237bpp is preferred to
@@ -446,7 +455,7 @@
                     </p>
                         </div>
                     </div>
-                    <hr/>
+                    <!-- <hr/>
                     <h2>Citation</h2>
                     <div class="citation">
                         <pre>@article{mentzer2020high,
@@ -458,8 +467,8 @@
 }
                 </pre>
                     </div>
-                    <hr/>
-                    <div class="centered-info">
+                    <hr/> -->
+                    <!-- <div class="centered-info">
                         <div class="container-xs social-icons">
                             <div class="row">
                                 <div class="col-sm-3">
@@ -547,7 +556,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
