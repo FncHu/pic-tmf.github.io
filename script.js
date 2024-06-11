@@ -153,7 +153,8 @@ let known = {
     /// INPUT_DATA_END
     
     let PREFIX = 'data/img/';
-    let order = ['shades', 'kodim15', 'wall', 'tower', 'food', 'bus', 'paris'];
+    // let order = ['shades', 'kodim15', 'wall', 'tower', 'food', 'bus', 'paris'];
+    let order = ['food'];
     let captionTypeToIndex = {'bpp': 1, 'bytes': 2};
     let captionIndex = captionTypeToIndex['bytes'];
     let currentImage = null;
