@@ -233,9 +233,9 @@ let known = {
         console.log('Showing left', img[0]);
         let imgName = img[0];
         let img_caption = img[captionIndex];
-        $('#left-info-button').text(img_caption);
-        $('#img-info-button').text(imgInfo);
-        $('#view-full-res').attr('href', fullres);
+        // $('#left-info-button').text(img_caption);
+        // $('#img-info-button').text(imgInfo);
+        // $('#view-full-res').attr('href', fullres);
         let leftImg = $('#left')[0];
         let showing = leftImg.src.split('/').reverse()[0];
         let loadingPlaceholder = $('#loading-placeholder');
