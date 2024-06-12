@@ -136,7 +136,7 @@ h4 {
     text-align: center;
     top: 19px;
     left: 30px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 .page-container {
     position: relative;
