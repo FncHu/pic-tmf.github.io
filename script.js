@@ -172,17 +172,17 @@ let known = {
             $('#footnote-aff-mi').toggle();
             $('#footnote-aff-fa').hide();
         });
-        $("#view-full-res").hover(
-            function() {
-                let title = $(this).attr("data-title");
-                $('<div/>', {
-                    text: title,
-                    class: 'overlay-box'
-                }).appendTo(this);
-            }, function() {
-                $(document).find("div.overlay-box").remove();
-            }
-        );
+        // $("#view-full-res").hover(
+        //     function() {
+        //         let title = $(this).attr("data-title");
+        //         $('<div/>', {
+        //             text: title,
+        //             class: 'overlay-box'
+        //         }).appendTo(this);
+        //     }, function() {
+        //         $(document).find("div.overlay-box").remove();
+        //     }
+        // );
         // Add the img tags.
         $("#right-imgs").append($("<img>"));
         $("#left-img").append($("<img>", {"id": "left"}));
