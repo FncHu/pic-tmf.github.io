@@ -62,6 +62,28 @@ let known = {
         ],
         'thumb': '0cb87ff168cf338fee6161e5e1892211_thumb.png'
     },
+    'kodim15': {
+        'imginfo': 'Kodak/kodim15.png',
+        'fullres': '',
+        'loadingRatio': '66.66666666666666%%',
+        'left': ['kodim15_TMF.png', 'HiFiC (Ours): 0.117bpp', 'HiFiC (Ours): 70 kB'],
+        'right': [
+            ['kodim15_jpg5.png', 'JPG (0.133 bpp, \u22481x ours kB)', 'JPG (80 kB, \u22481x ours kB)'],
+            ['kodim15_jpg10.png', 'JPG (0.260 bpp, \u22482x)', 'JPG (156 kB, \u22482x)'],
+            ['kodim15_jpg15.png', 'JPG (0.367 bpp, \u22483x)', 'JPG (220 kB, \u22483x)'],
+            ['DIVIDER'],
+            ['kodim15_bpg48.png', 'BPG (0.145 bpp, \u22481x)', 'BPG (87 kB, \u22481x)'],
+            ['kodim15_bpg43.png', 'BPG (0.223 bpp, \u22482x)', 'BPG (134 kB, \u22482x)'],
+            ['kodim15_bpg42.png', 'BPG (0.356 bpp, \u22483x)', 'BPG (214 kB, \u22483x)'],
+            ['DIVIDER'],
+            ['kodim15_RECON_0.106bpp.png', 'HiFiC (0.106 bpp, \u22481x)', 'HiFiC (64 kB, \u22481x)'],
+            ['kodim15_RECON_0.208bpp.png', 'HiFiC (0.208 bpp, \u22482x)', 'HiFiC (125 kB, \u22482x)'],
+            ['kodim15_RECON_0.316bpp.png', 'HiFiC (0.316 bpp, \u22483x)', 'HiFiC (200 kB, \u22483x)'],
+            ['DIVIDER'],
+            ['kodim15_ori.png', 'Original', 'Original'],
+        ],
+        'thumb': 'kodim15_thumb.png'
+    },
     'shades': {
         'imginfo': 'CLIC2020/ad249',
         'fullres': 'https://storage.googleapis.com/hific/clic2020/visualize.html?perPage=10&imgs=ad249bba099568403dc6b97bc37f8d74',
@@ -174,31 +196,12 @@ let known = {
         ],
         'thumb': 'wall_thumb.jpg'
     },
-    'kodim15': {
-        'imginfo': 'Kodak/kodim15.png',
-        'fullres': 'https://storage.googleapis.com/hific/kodak/visualize.html?perPage=10&imgs=kodim15',
-        'loadingRatio': '66.66666666666666%',
-        'left': ['kodim15_HiFiC_Lo.png', 'HiFiC (Ours): 0.139bpp', 'HiFiC (Ours): 7 kB'],
-        'right': [
-            ['kodim15_jpg_1x_0.166.jpg', 'JPG (0.166 bpp, \u22481x ours kB)', 'JPG (8 kB, \u22481x ours kB)'],
-            ['kodim15_jpg_2x_0.284.jpg', 'JPG (0.284 bpp, \u22482x)', 'JPG (14 kB, \u22482x)'],
-            ['kodim15_jpg_3x_0.424.jpg', 'JPG (0.424 bpp, \u22483x)', 'JPG (21 kB, \u22483x)'],
-            ['kodim15_jpg_4x_0.563.jpg', 'JPG (0.563 bpp, \u22484x)', 'JPG (28 kB, \u22484x)'],
-            ['DIVIDER'],
-            ['kodim15_bpg_1x_0.162.png', 'BPG (0.162 bpp, \u22481x)', 'BPG (8 kB, \u22481x)'],
-            ['kodim15_bpg_2x_0.313.png', 'BPG (0.313 bpp, \u22482x)', 'BPG (15 kB, \u22482x)'],
-            ['kodim15_bpg_3x_0.423.png', 'BPG (0.423 bpp, \u22483x)', 'BPG (21 kB, \u22483x)'],
-            ['DIVIDER'],
-            ['kodim15_originals.png', 'Original', 'Original'],
-        ],
-        'thumb': 'kodim15_thumb.jpg'
-    },
     };
     /// INPUT_DATA_END
     
     let PREFIX = 'data/img/';
     // let order = ['shades', 'kodim15', 'wall', 'tower', 'food', 'bus', 'paris'];
-    let order = ['women','road'];
+    let order = ['women', 'road', 'kodim15'];
     let captionTypeToIndex = {'bpp': 1, 'bytes': 2};
     let captionIndex = captionTypeToIndex['bytes'];
     let currentImage = null;
