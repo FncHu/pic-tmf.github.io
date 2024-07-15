@@ -176,7 +176,7 @@ let known = {
     
     let PREFIX = 'data/img/';
     // let order = ['shades', 'kodim15', 'wall', 'tower', 'food', 'bus', 'paris'];
-    let order = ['women','food'];
+    let order = ['food','women'];
     let captionTypeToIndex = {'bpp': 1, 'bytes': 2};
     let captionIndex = captionTypeToIndex['bytes'];
     let currentImage = null;
