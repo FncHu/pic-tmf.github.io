@@ -40,6 +40,28 @@ let known = {
         ],
         'thumb': '0c0ba31b279da4b8a0b848b63d302e8b_thumb.png'
     },
+    'road': {
+        'imginfo': 'CLIC2020/0cb87ff168cf338fee6161e5e1892211.png',
+        'fullres': '',
+        'loadingRatio': '75.29411764705883%',
+        'left': ['0cb87ff168cf338fee6161e5e1892211_TMF.png', 'HiFiC (Ours): 0.080bpp', 'HiFiC (Ours): 347 kB'],
+        'right': [
+            ['0cb87ff168cf338fee6161e5e1892211_jpg5.png', 'JPG (0.054 bpp, \u22481x ours kB)', 'JPG (237 kB, \u22481x ours kB)'],
+            ['0cb87ff168cf338fee6161e5e1892211_jpg10.png', 'JPG (0.153 bpp, \u22482x)', 'JPG (664 kB, \u22482x)'],
+            ['0cb87ff168cf338fee6161e5e1892211_jpg15.png', 'JPG (0.251 bpp, \u22483x)', 'JPG (1.06 MB, \u22483x)'],
+            ['DIVIDER'],
+            ['0cb87ff168cf338fee6161e5e1892211_bpg48.png', 'BPG (0.067 bpp, \u22481x)', 'BPG (290 kB, \u22481x)'],
+            ['0cb87ff168cf338fee6161e5e1892211_bpg43.png', 'BPG (0.148 bpp, \u22482x)', 'BPG (641 kB, \u22482x)'],
+            ['0cb87ff168cf338fee6161e5e1892211_bpg42.png', 'BPG (0.239 bpp, \u22483x)', 'BPG (1.01 MB, \u22483x)'],
+            ['DIVIDER'],
+            ['0cb87ff168cf338fee6161e5e1892211_RECON_0.073bpp.png', 'HiFiC (0.073 bpp, \u22481x)', 'HiFiC (316 kB, \u22481x)'],
+            ['0cb87ff168cf338fee6161e5e1892211_RECON_0.152bpp.png', 'HiFiC (0.152 bpp, \u22482x)', 'HiFiC (658 kB, \u22482x)'],
+            ['0cb87ff168cf338fee6161e5e1892211_RECON_0.251bpp.png', 'HiFiC (0.251 bpp, \u22483x)', 'HiFiC (1.06 MB, \u22483x)'],
+            ['DIVIDER'],
+            ['0cb87ff168cf338fee6161e5e1892211_ori.png', 'Original', 'Original'],
+        ],
+        'thumb': '0cb87ff168cf338fee6161e5e1892211_thumb.png'
+    },
     'shades': {
         'imginfo': 'CLIC2020/ad249',
         'fullres': 'https://storage.googleapis.com/hific/clic2020/visualize.html?perPage=10&imgs=ad249bba099568403dc6b97bc37f8d74',
@@ -176,7 +198,7 @@ let known = {
     
     let PREFIX = 'data/img/';
     // let order = ['shades', 'kodim15', 'wall', 'tower', 'food', 'bus', 'paris'];
-    let order = ['women'];
+    let order = ['women','road'];
     let captionTypeToIndex = {'bpp': 1, 'bytes': 2};
     let captionIndex = captionTypeToIndex['bytes'];
     let currentImage = null;
