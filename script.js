@@ -36,6 +36,8 @@ let known = {
             ['0c0ba31b279da4b8a0b848b63d302e8b_hific_m_0.171bpp.png', 'HiFiC (0.171 bpp, \u22482x)', 'HiFiC (664 kB, \u22482x)'],
             ['0c0ba31b279da4b8a0b848b63d302e8b_hific_h_0.259bpp.png', 'HiFiC (0.259 bpp, \u22483x)', 'HiFiC (1005 kB, \u22483x)'],
             ['DIVIDER'],
+            ['0c0ba31b279da4b8a0b848b63d302e8b_0text.png', 'Without Text (0.184 bpp, \u22481x)', 'Without Text (713 kB, \u22482x)'],
+            ['DIVIDER'],
             ['0c0ba31b279da4b8a0b848b63d302e8b_ori.png', 'Original', 'Original'],
         ],
         'thumb': '0c0ba31b279da4b8a0b848b63d302e8b_thumb.png'
@@ -58,6 +60,8 @@ let known = {
             ['0cb87ff168cf338fee6161e5e1892211_RECON_0.152bpp.png', 'HiFiC (0.152 bpp, \u22482x)', 'HiFiC (658 kB, \u22482x)'],
             ['0cb87ff168cf338fee6161e5e1892211_RECON_0.251bpp.png', 'HiFiC (0.251 bpp, \u22483x)', 'HiFiC (1.06 MB, \u22483x)'],
             ['DIVIDER'],
+            ['0cb87ff168cf338fee6161e5e1892211_0text.png', 'Without Text (0.119 bpp, \u22481.5x)', 'Without Text (515 kB, \u22481.5x)'],
+            ['DIVIDER'],
             ['0cb87ff168cf338fee6161e5e1892211_ori.png', 'Original', 'Original'],
         ],
         'thumb': '0cb87ff168cf338fee6161e5e1892211_thumb.png'
@@ -79,6 +83,8 @@ let known = {
             ['kodim15_RECON_0.106bpp.png', 'HiFiC (0.106 bpp, \u22481x)', 'HiFiC (64 kB, \u22481x)'],
             ['kodim15_RECON_0.208bpp.png', 'HiFiC (0.208 bpp, \u22482x)', 'HiFiC (125 kB, \u22482x)'],
             ['kodim15_RECON_0.316bpp.png', 'HiFiC (0.316 bpp, \u22483x)', 'HiFiC (200 kB, \u22483x)'],
+            ['DIVIDER'],
+            ['kodim15_0text.png', 'Without Text (0.346 bpp, \u22483x)', 'Without Text (209 kB, \u22483x)'],
             ['DIVIDER'],
             ['kodim15_ori.png', 'Original', 'Original'],
         ],
