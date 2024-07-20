@@ -101,6 +101,7 @@ let known = {
             ['shades_jpg_3x_0.596.jpg', 'JPG (0.596 bpp, \u22483x)', 'JPG (223 kB, \u22483x)'],
             ['shades_jpg_4x_0.807.jpg', 'JPG (0.807 bpp, \u22484x)', 'JPG (302 kB, \u22484x)'],
             ['DIVIDER'],
+            ['DIVIDER'],
             ['shades_bpg_1x_0.224.png', 'BPG (0.224 bpp, \u22481x)', 'BPG (84 kB, \u22481x)'],
             ['shades_bpg_2x_0.446.png', 'BPG (0.446 bpp, \u22482x)', 'BPG (167 kB, \u22482x)'],
             ['shades_bpg_3x_0.659.png', 'BPG (0.659 bpp, \u22483x)', 'BPG (246 kB, \u22483x)'],
